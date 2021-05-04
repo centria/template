@@ -16,13 +16,7 @@ const NavItem = ({ items, url = '', title = '' }) => {
 	return (
 		<StyledNavItem>
 			{title !== '' && (
-				<NavItemLink
-					to={url}
-					activeClassName='is-active'
-					onClick={() => {
-						dispatch({ type: 'TOGGLE_NAV_COLLAPSED', url: url })
-					}}
-				>
+				<NavItemLink to={url} activeClassName='is-active'>
 					{title}
 				</NavItemLink>
 			)}

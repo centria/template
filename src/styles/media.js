@@ -5,7 +5,7 @@ import theme from '../gatsby-plugin-theme-ui'
  * This file takes references from https://github.com/narative/gatsby-theme-novela
  */
 
-const toEm = size => `${size / 16}em`
+const toEm = size => `${size / 19}em`
 
 /**
  * All breakpoints can be found inside of theme.breakpoints.
