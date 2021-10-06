@@ -171,9 +171,11 @@ In order to display the content from the files, we need to config the front matt
 
 ![Front matter](https://i.imgur.com/DJgGPsE.png)
 
-**NOTE** About numbering the nav_order, the data that retrieved from the server will be the same as the order of your nav_order, so make sure you mark every content in a proper order and do not duplicate them. For example, if your mark the Part 1 page with nav_order:1 then the subcontent of Part 1 like Part1-1, Part1-2 will have nav_order as 2, and 3 corresponding and the Part 2 have to have higher order than all the content of Part 1.
+**NOTE** 
+About numbering the nav_order, the data that retrieved from the server will be the same as the order of your nav_order, so make sure you mark every content in a proper order and do not duplicate them. For example, if your mark the Part 1 page with nav_order:1 then the subcontent of Part 1 like Part1-1, Part1-2 will have nav_order as 2, and 3 corresponding and the Part 2 have to have higher order than all the content of Part 1.
 
-**TIP** In order to make things easier, my tip is mark each part of content with at least two digits. For example, Part 1 and all its subcontent can be marked as 1*, likes 10, 11, 12... and Part 2 as 2*... That way, you can easy add more extra content later if needed.  
+**TIP** 
+In order to make things easier, my tip is mark each part of content with at least two digits. For example, Part 1 and all its subcontent can be marked as 1*, likes 10, 11, 12... and Part 2 as 2*... That way, you can easy add more extra content later if needed.  
 
 ### Application styling
 
