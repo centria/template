@@ -167,11 +167,17 @@ Basically, all the markdown files in your content folder will be displayed in th
 
 ### Config content files front matter
 
-In order to display the content from the files, we need to config the front matter data so the app can get its necessary information. Two compulsory fields need to have for each file are title and nav_order. Title will be used to display the part's name in the navbar and anv_order will be used for sorting those name in navbar. Bellow is the frontmatter of part 1.
+In order to display the content from the files, we need to config the front matter data so the app can get its necessary information. Two compulsory fields need to have for each file are title and nav_order. Title will be used to display the part's name in the navbar and nav_order will be used for sorting those name in navbar. Bellow is the frontmatter of part 1.
 
 ![Front matter](https://i.imgur.com/DJgGPsE.png)
 
-About numbering the nav*order, it will work base on each folder layer. For example, if you are in the **./src/content** folder, you should number the contents' order as : 1, 2, 3... But if you in a subfolder like **part1**, or part2 you also need to number the subcontain as 1, 2, 3...So each layer will have a separate ordering and will not overlap each others.
+**NOTE** 
+
+About numbering the nav_order, the data that retrieved from the server will be the same as the order of your nav_order, so make sure you mark every content in a proper order and do not duplicate them. For example, if your mark the Part 1 page with nav_order:1 then the subcontent of Part 1 like Part1-1, Part1-2 will have nav_order as 2, and 3 corresponding and the Part 2 have to have higher order than all the content of Part 1.
+
+**TIP** 
+
+In order to make things easier, my tip is mark each part of content with at least two digits. For example, Part 1 and all its subcontent can be marked as 1*, likes 10, 11, 12... and Part 2 as 2*... That way, you can easy add more extra content later if needed.  
 
 ### Application styling
 
